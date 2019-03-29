@@ -1,0 +1,13 @@
+<h3>Title</h3>
+
+<input type="text" [(ngModel)]="title" /> <span>{{ title }}</span>
+<app-title>{{ title }}</app-title>
+
+<!-- <a routerLink="ng2-route">ng2-route</a> | <a href="phones">Phones</a> -->
+
+<app-phone-list></app-phone-list>
+
+<router-outlet></router-outlet>
+
+<div ng-view class="view-frame">
+</div>
